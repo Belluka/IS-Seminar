@@ -10,7 +10,6 @@ var connectionString = builder.Configuration.GetConnectionString("AzureContext")
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-//test
 //builder.Services.AddDbContext<LibraryContext>(options =>
 //            options.UseSqlServer(builder.Configuration.GetConnectionString("LibraryContext")));
 
