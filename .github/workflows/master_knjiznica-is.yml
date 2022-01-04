@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'knjiznica-is'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_E231B54039BF427090EB9CE3F41FB4D9 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_22B201C4F2B74D5199F378189F54B570 }}
           package: .
